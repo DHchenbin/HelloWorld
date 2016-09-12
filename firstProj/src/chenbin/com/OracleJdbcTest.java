@@ -3,6 +3,7 @@ import java.sql.*;
 
 
 
+
 public class OracleJdbcTest {
 	   // JDBC driver name and database URL
 	   static final String JDBC_DRIVER = "oracle.jdbc.driver.OracleDriver";  
@@ -15,6 +16,7 @@ public class OracleJdbcTest {
 	   Connection conn = null;
 	   Statement stmt = null;
 	   try{
+		   
 	      //STEP 2: Register JDBC driver
 	     Class.forName("oracle.jdbc.driver.OracleDriver");
 	      //STEP 3: Open a connection
