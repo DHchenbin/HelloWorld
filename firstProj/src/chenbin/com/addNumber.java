@@ -14,3 +14,4 @@ public class addNumber {
 		System.out.println("The New score is "+score);
 		System.out.println("The Count is "+count);
 	}}
+
